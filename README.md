@@ -29,8 +29,11 @@ Step 03.
 ```
 15. pip install whitenoise
 16. pip install django_heroku
-17. Open your settings.py file
 ```
+
+```
+17. Open your settings.py file
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -46,6 +49,7 @@ In MIDDLEWARE just past 'whitenoise.middleware.WhiteNoiseMiddleware',
 Top of the settings file just import "import django_heroku" And Bottom of Settings file just pest "django_heroku.settings(locals())"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+```
 
 Step 04.
 ```
