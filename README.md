@@ -30,7 +30,7 @@ Step 03.
 15. pip install whitenoise
 16. pip install django_heroku
 ```
-
+Step 04
 ```
 17. Open your settings.py file
 
@@ -51,7 +51,7 @@ Top of the settings file just import "import django_heroku" And Bottom of Settin
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 ```
 
-Step 04.
+Step 05.
 ```
 18. python manage.py collectstatic --noinput
 19. heroku config:set DEBUG_COLLECTSTATIC=1 or heroku config:set DISABLE_COLLECTSTATIC=1
