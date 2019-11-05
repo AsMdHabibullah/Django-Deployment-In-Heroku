@@ -84,5 +84,5 @@ You need to create superuser
 33. Password
 34. Confirm Password
 ```
-# Ok Done...Hurrah Your App in live now. You can see just writ command - > heroku poen
+# Done..:) Hurrah Your App in live now. You can see just writ command - > heroku poen
 ```
