@@ -74,9 +74,7 @@ So..........
 28. heroku run python manage.py migrate
 29. heroku run bash
 Now you can  see like this ->  ~ $ 
-```
-So..........
-```
+
 You need to create superuser
 30. python manage.py createsuperuser
 31. Your User Name
