@@ -54,7 +54,11 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 Step 05.
 ```
 18. python manage.py collectstatic --noinput
-19. heroku config:set DEBUG_COLLECTSTATIC=1 or heroku config:set DISABLE_COLLECTSTATIC=1
+
+if you use Docker then you can use 19
+19. heroku config:set DEBUG_COLLECTSTATIC=1 
+Otherwise
+    heroku config:set DISABLE_COLLECTSTATIC=1
 20. git push heroku master
 21. heroku poen 
 ```
